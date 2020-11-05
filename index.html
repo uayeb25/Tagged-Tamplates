@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template literals expressions</title>
+</head>
+<body>
+    <script>
+        const name = "Uayeb";
+        console.log(`my name is ${name}`);
+        console.log(`my name is ${ ["a","b"].map( letter => `${letter}-styled`  ) }`);
+        console.log(`my name is ${ true && 'name w ternario' }`);
+        console.log(`my name is ${ false ? '' : 'False name' }`);
+        console.log(`my name is ${x = 'Ja'}`);
+        console.log(`my name is ${(nameFun = () => 'Uayeb' )()}`);
+        
+    </script>
+</body>
+</html>
